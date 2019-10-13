@@ -45,7 +45,7 @@ W pliku **app.js** masz tablicę o nazwie ```task2Array```.
 
 ### Zadanie 3 (~ 5min - 10 min)
 
-Napisz funkcje ```print2DArray```, która będzie przyjmować  jako argument tablicę dwuwymiarową. Następnie funkcja ma wypisać w konsoli zawartość tej tablicy.
+Napisz funkcje ```print2DArray```, która będzie przyjmować  jako argument tablicę dwuwymiarową. Następnie funkcja  ma wypisać w konsoli zawartość tej tablicy.
 
 ### Zadanie 4 (~ 5min - 10 min)
 
