@@ -9,3 +9,8 @@ var movie = {
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
 }
+
+console.log();
+for(const key in movie) {
+    console.log(movie[key]);
+}
