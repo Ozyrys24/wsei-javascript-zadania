@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//Definiujemy funkcję jeden
 function jeden() {
 
-    //Twoj komentarz ...
+    //Inicjalizujemy zmienną zmienna jeden
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Definiujemy wewnnętrzą funkcję fukcji jeden o nazwie dwa
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wypisujemy wartość zmiennej zmienna1 na okno konsoli 
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //Inicjalizujemy zmienną lokalna zmienna2
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywołujemy funkcję dwa
     dwa();
 
-    //Twoj komentarz ...
+    //Wypisujemy wartość zmiennej zmienna2 na okno konsoli  która jest zmienną lokalna funkcji dwa i zwraca ReferenceError
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//Wywołujemy funkcję jeden
 jeden()

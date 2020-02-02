@@ -5,21 +5,22 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//Definiujemy funkcję sortArray
 function sortArray() {
 
-    //Twoj komentarz ...
+    //Inicjalizujemy tablicę points
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    //Wywołujemy funkcję Array.sort na tablicy points która przyjmówję fukcję  która w tym przydaku jest motoda anonimową
+    //definiujacą jak funkcja ma sortowac elementy
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        //fukcja zwraca który element jest mniejszy zwracając wartośc mniejszą, wieszką lub równą 0
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //zwraca posrtowaną tablicę points
     return points;
 }
 
-//Twoj komentarz ...
+//wywołuje funkcję sortArray
 sortArray();
