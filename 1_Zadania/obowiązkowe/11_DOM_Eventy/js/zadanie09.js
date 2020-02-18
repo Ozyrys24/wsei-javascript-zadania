@@ -1,3 +1,4 @@
+//Task 9
 document.addEventListener("DOMContentLoaded", function () {
   var a = document.getElementById("a");
   var b = document.getElementById("b");
@@ -26,3 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 })
+
+/* 
+Aby wykonac to zadanie nalezy przypisac event to zmiennej b a następnie posłuzyć się this
+aby wskazać na ten element
+*/
