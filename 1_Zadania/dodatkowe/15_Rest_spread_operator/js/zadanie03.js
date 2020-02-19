@@ -16,3 +16,11 @@ let people = [
         profession: "trener"
     }
 ];
+console.log("Zadanie 03:");
+
+function setFunnyName(...param) {
+    people.push(...people, ...param)
+}
+
+setFunnyName({person: "Antoni", profession: "drwal"}, {person: "Janusz", profession: "kierowca"});
+console.log(people);
