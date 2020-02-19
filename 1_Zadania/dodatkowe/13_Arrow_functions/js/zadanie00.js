@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', function () {
 
 	var getSpan = document.querySelectorAll('span');
@@ -21,3 +22,24 @@ document.addEventListener('DOMContentLoaded', function () {
 	};
 
 });
+*/
+//Zadanie #00
+console.log("Zadanie 00:");
+
+
+
+const Students = function(name) {
+	this.names = name;
+	let counter = [];
+	this.countLetters = function() {
+	for(let i=0; i< this.names.length; i++)
+		counter.push(this.names[i].length);
+	};
+	this.numberOfLetters = counter;
+
+}
+
+students = new Students(["Ania", "Kamil", "Mariusz"]);
+students.countLetters();
+console.log(students.numberOfLetters);
+

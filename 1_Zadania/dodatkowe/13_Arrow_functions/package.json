@@ -1,0 +1,21 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "### Przygotowanie",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm js/out.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production"
+  },
+  "dependencies": {
+    "remove-files-webpack-plugin": "^1.1.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
