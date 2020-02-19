@@ -1,0 +1,19 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "> Stwórz w pełni działające środowisko, które pozwoli Ci pisać kod JavaScript w wersji 6.\r >\r > Pamiętaj o:\r > - ```npm init```\r > - Zainstalowaniu odpowiednich modułów\r > - Ustawieniu Webpacka, plikiem  wyjściowym  ma być `js/out.js`",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm js/out.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
